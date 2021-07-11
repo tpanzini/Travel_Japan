@@ -9,16 +9,16 @@ body {
 }
 
 main {
-  margin: 0 5%;
+  margin: 0 10%;
   background-color: #ffffff;
 }
 
 .hero {
-  height: 110vw;
+  height: 50vw;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
   overflow: hidden;
   /* margin-left: 5%; */
 }
@@ -88,6 +88,7 @@ p {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   text-align: center;
+  margin-bottom: 5vw;
 }
 
 .guide {
@@ -95,7 +96,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 2vw;
+  margin: 15vw 0;
   /* height: 100vh; */
 }
 
@@ -116,24 +117,32 @@ p {
   justify-content: space-between; */
 }
 
-/* .guide-image {
-  margin-bottom: 2rem;
-} */
+.guide-image {
+  margin-bottom: 2vw;
+}
 
 .guide-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-bottom: 4rem; */
+  margin-bottom: 5vw;
 }
 
 .guide-heading {
   font-size: 28px;
-  margin-bottom: 1rem;
+  margin-bottom: 2vw;
 }
 
 .guide-left {
   /* transform: translateX(-5vw); */
+}
+
+.guide-paragraph {
+  /* height: 100%;
+  width: 100%; */
+  padding: 0.5rem 0.5rem;
+  width: 25vw;
+  /* background-color: #c4c4c4; */
 }
 
 .icon-paragraph {
@@ -174,7 +183,7 @@ p {
 }
 
 .arrow {
-  margin-bottom: 2rem;
+  margin-bottom: 5vw;
 }
 
 .arrow-1 {
@@ -225,10 +234,10 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, 15rem);
   /* grid-template-rows: repeat(auto-fit, 15rem); */
-  grid-gap: 5rem 1rem;
+  grid-gap: 8vw 2vw;
   justify-content: center;
   /* margin: auto; */
-  width: 65%;
+  width: 75%;
 }
 
 .paragraph-border {
@@ -263,54 +272,70 @@ p {
   width: 95%;
 } */
 
-.carousel-container {
+.slider-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: antiquewhite;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   padding-top: 5vw;
 }
 
 .carousel {
-  width: 45rem;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
+  width: 40rem;
+  height: auto;
+  margin: 0 auto;
+  /* position: relative; */
+  /* overflow: hidden; */
   /*   top: 18%;
   left: 30%; */
 }
 
 .slider-container {
   display: flex;
-  height: 24.5rem; /* = 24.3rem = 388.5 px 35vw*/
+  height: 19.5rem; /* = 24.3rem = 388.5 px 35vw*/
 }
 
-.image-container {
+/* .image-container {
   overflow: hidden;
-}
+} */
 
 .image {
-  height: 24.5rem; /* = 24.3rem = 388.5 px 35vw*/
-  width: 45rem; /*= 45rem 720px 62vw*/
+  height: 19.5rem; /* = 24.3rem = 388.5 px 35vw*/
+  width: 40rem; /*= 45rem 720px 62vw*/
+}
+
+.slide-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(30%);
 }
 
 .title-text {
   font-family: Oswald, sans-serif;
   font-size: 80px;
-  color: white;
-  position: absolute;
+  color: black;
+  /* position: absolute;
   top: 15%;
-  left: 2%;
+  left: 2%; */
 }
 
 .slider-text {
   font-family: Roboto, sans-serif;
   width: 25%;
-  color: white;
+  color: black;
   line-height: 1.5;
-  position: absolute;
+  /* position: absolute;
   top: 40%;
-  left: 5%;
+  left: 5%; */
 }
 
 .slide-1 {
@@ -331,10 +356,10 @@ p {
 }
 
 .btn-left {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
-  bottom: 2rem;
-  left: 3rem;
+  /* bottom: 2rem;
+  left: 3rem; */
   z-index: 100;
   font-size: 3rem;
   height: 40px;
@@ -345,10 +370,10 @@ p {
 }
 
 .btn-right {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
-  bottom: 2rem;
-  left: 9rem;
+  /* bottom: 2rem;
+  left: 9rem; */
   z-index: 100;
   font-size: 3rem;
   height: 40px;
@@ -357,20 +382,20 @@ p {
   justify-content: center;
 }
 
-.thumbnail-container {
-  /* position: absolute;
+/* .thumbnail-container {
+  position: absolute;
   top: 77%;
-  left: 45%; */
+  left: 45%;
   display: flex;
   justify-content: space-between;
   width: 470px;
   margin-top: 1rem;
-}
+} */
 
-.thumbnail {
+/* .thumbnail {
   width: 150px;
   height: auto;
-}
+} */
 
 .review-section {
   margin-top: 5vw;
