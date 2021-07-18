@@ -9,18 +9,20 @@ body {
 }
 
 main {
-  margin: 0 10%;
+  /* margin: 0 10%; */
   background-color: #ffffff;
 }
 
 .hero {
   height: 50vw;
   width: 100%;
+  position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: repeat(3, 1fr); */
   overflow: hidden;
   /* margin-left: 5%; */
+  margin-bottom: 10vw;
 }
 
 p {
@@ -41,21 +43,25 @@ p {
 }
 
 .hero-video {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
+  grid-column: 1 / -1;
   width: 100%;
   height: auto;
-  z-index: -100;
+  z-index: 10;
 }
 
 .hero-text {
   /* display: flex;
   flex-direction: column; */
+  position: absolute;
+  bottom: 8rem;
   margin-left: 5%;
   /* color: #ffffff; */
   color: black;
-  z-index: 100;
+  animation: slide-up 1s ease-in-out both;
+  z-index: 1000;
 }
 
 .heading-title {
@@ -80,11 +86,14 @@ p {
 }
 
 .guide {
+  background-image: url(/cherry-blossom-4-removebg.png);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position-x: -10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 15vw 0;
   /* height: 100vh; */
 }
 
@@ -133,8 +142,10 @@ p {
 }
 
 .included-items {
+  background-color: #f4f4f4;
   margin-top: 4rem;
   margin-bottom: 8rem;
+  padding: 10vw 0;
   display: flex;
   flex-direction: column;
   align-items: center;
