@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* background-color: blanchedalmond; */
-}
-
 main {
   /* margin: 0 10%; */
   background-color: #ffffff;
@@ -28,18 +24,6 @@ main {
 p {
   font-family: Roboto, sans-serif;
   line-height: 1.5;
-}
-
-.hero-content-container {
-  /* background: url(/hero-image.SVG); */
-  /* background-repeat: no-repeat;
-  background-size: contain;
-  grid-column: 1/5;
-  grid-row: 1/5;
-  height: 400vw;
-  width: auto; */
-  /* background-repeat: no-repeat;
-  background-size: contain; */
 }
 
 .hero-video {
