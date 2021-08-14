@@ -86,6 +86,10 @@ p {
   width: 90%;
 }
 
+.arrow {
+  margin-bottom: 4vw;
+}
+
 .guide-container {
   margin: auto 10%;
   overflow: hidden;
@@ -322,13 +326,28 @@ p {
   width: 5vw;
 }
 
-.cta-image {
-  object-fit: cover;
-  width: 100%;
+.call-to-action {
+  margin: 5vw 0 20vw 0;
 }
 
 .cta-container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-title {
+  color: black;
+}
+
+.cta-main {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.cta-sub {
+  font-size: 2rem;
 }
 
 /* Scrolling  Sliding*/
