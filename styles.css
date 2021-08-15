@@ -5,7 +5,6 @@
 }
 
 main {
-  /* margin: 0 10%; */
   background-color: #ffffff;
 }
 
@@ -15,9 +14,9 @@ main {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
+
   overflow: hidden;
-  /* margin-left: 5%; */
+
   margin-bottom: 10vw;
 }
 
@@ -27,9 +26,6 @@ p {
 }
 
 .hero-video {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   grid-column: 1 / -1;
   width: 100%;
   height: auto;
@@ -37,12 +33,10 @@ p {
 }
 
 .hero-text {
-  /* display: flex;
-  flex-direction: column; */
   position: absolute;
   bottom: 8rem;
   margin-left: 5%;
-  /* color: #ffffff; */
+
   color: black;
   animation: slide-up 1s ease-in-out both;
   z-index: 1000;
@@ -61,7 +55,7 @@ p {
 .section-title {
   font-family: Oswald, sans-serif;
   padding: 0.5rem 2rem;
-  /* margin-bottom: 2rem; */
+
   font-size: 4vw;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -73,17 +67,15 @@ p {
 .guide {
   background-image: url(/cherry-blossom-4-removebg.png);
   background-repeat: no-repeat;
-  /* background-size: contain; */
+
   background-position-x: -10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
 }
 
 .img {
-  /* object-fit: contain; */
   width: 90%;
 }
 
@@ -96,12 +88,9 @@ p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: repeat(auto-fit, min-content);
-  grid-template-rows: repeat(7, min-content); */
+
   justify-items: space-evenly;
   align-items: center;
-  /* flex-direction: column;
-  justify-content: space-between; */
 }
 
 .guide-image {
@@ -138,16 +127,15 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: c; */
 }
 
 .included-items-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 15rem);
-  /* grid-template-rows: repeat(auto-fit, 15rem); */
+
   grid-gap: 8vw 2vw;
   justify-content: center;
-  /* margin: auto; */
+
   width: 75%;
 }
 
@@ -158,7 +146,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transform: translateY(-3rem); */
 }
 
 .includes-content {
@@ -171,14 +158,6 @@ p {
 .img-1 {
   padding-bottom: 1rem;
 }
-
-/* .slider-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: antiquewhite;
-  padding-bottom: 5vw;
-} */
 
 .destinations-section {
   display: flex;
@@ -197,23 +176,15 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*   top: 18%;
-  left: 30%; */
 }
 
 .slider-container {
   display: flex;
-  /* height: 39.5rem; /* = 24.3rem = 388.5 px 35vw*/
-  /* width: 60rem;  */
 }
 
 .title-text {
   font-family: Oswald, sans-serif;
   font-size: 5rem;
-  /*   color: white;
-  position: absolute;
-  top: 15%;
-  left: 2%; */
 }
 
 .text-container {
@@ -221,43 +192,35 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  /*   align-self: center;
-  justify-self: center; */
 }
 
 .slider-text {
   font-family: Roboto, sans-serif;
   width: 50%;
   margin-bottom: 4vw;
-  /* color: black;
-  line-height: 1.5;
-  position: absolute;
-  top: 40%;
-  left: 5%; */
 }
 
 .slide-1 {
   display: flex;
-  /* flex-wrap: wrap; */
+
   background-color: #f4f4f4;
 }
 
 .slide-2 {
   display: flex;
   flex-direction: row-reverse;
-  /* flex-wrap: wrap; */
+
   background-color: #c4c4c4;
 }
 .slide-3 {
   display: flex;
-  /* flex-wrap: wrap; */
+
   background-color: #f4f4f4;
 }
 .slide-4 {
   display: flex;
   flex-direction: row-reverse;
-  /* flex-wrap: wrap; */
+
   background-color: #c4c4c4;
 }
 
@@ -270,10 +233,6 @@ p {
   margin: 5vw 0;
   display: grid;
   grid-template-columns: 1fr;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
 .review-title {
@@ -292,9 +251,6 @@ p {
 .user-image {
   height: auto;
   width: 10rem;
-  /* position: absolute;
-  left: 20vw;
-  top: 20vw; */
   position: absolute;
   bottom: -7rem;
 }
@@ -303,7 +259,6 @@ p {
   background-color: #c4c4c4;
   margin: 8rem 0;
   width: 60%;
-  /* transform: translateX(5vw); */
   position: relative;
   height: 13rem;
   display: flex;
@@ -318,8 +273,6 @@ p {
   font-size: 1rem;
   position: absolute;
   width: 70%;
-  /* top: 7vw;
-  left: 14vw; */
   font-style: italic;
   align-self: center;
 }
