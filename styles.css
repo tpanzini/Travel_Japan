@@ -67,6 +67,7 @@ p {
   border-bottom: 2px solid black;
   text-align: center;
   margin-bottom: 5vw;
+  width: 100%;
 }
 
 .guide {
@@ -205,15 +206,10 @@ p {
   /* height: 39.5rem; /* = 24.3rem = 388.5 px 35vw*/
   /* width: 60rem;  */
 }
-/* 
-.slide {
-  align-items: center;
-  justify-content: center;
-} */
 
 .title-text {
   font-family: Oswald, sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   /*   color: white;
   position: absolute;
   top: 15%;
@@ -233,6 +229,7 @@ p {
 .slider-text {
   font-family: Roboto, sans-serif;
   width: 50%;
+  margin-bottom: 4vw;
   /* color: black;
   line-height: 1.5;
   position: absolute;
@@ -271,6 +268,17 @@ p {
 
 .review-section {
   margin: 5vw 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.review-title {
+  justify-self: center;
+  width: 100%;
 }
 
 .user-container {
@@ -300,6 +308,10 @@ p {
   height: 13rem;
   display: flex;
   justify-content: center;
+}
+
+.user-review__content:first-child {
+  margin: 0 0 8rem 0;
 }
 
 .user-review {
@@ -379,6 +391,11 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .guide-paragraph {
+    padding: 0.5rem 0.5rem;
+    width: 50vw;
   }
 }
 
