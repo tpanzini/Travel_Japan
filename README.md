@@ -2,7 +2,7 @@
 
 ## Project Info
 
-The project can be viewed at [Travel Japan.](https://tpanzini.github.io/Travel_Japan/)
+The project can be viewed at [Travel Japan.](https://travel-japan-56554.firebaseapp.com/)
 
 Travel Japan is a simple travel website outlining a fictional travel company that provides turnkey travel packages to Japan.
 
